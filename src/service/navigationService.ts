@@ -1,4 +1,4 @@
-import NavigationViewModel from "@/models/navigationViewModel.ts";
+import NavigationViewModel from "@/models/Navigation/NavigationViewModel";
 export default class NavigationService {
   public GetNavigations (): NavigationViewModel[] {
     var arr: NavigationViewModel[] = [
